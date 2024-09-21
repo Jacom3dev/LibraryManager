@@ -1,0 +1,66 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.sln.docstates
+*.sln.ide
+*.suo
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# User-specific files
+*.user
+*.userprefs
+*.sln.user
+*.sln.ide
+
+# NuGet Packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+!**/packages/build/*.targets
+!**/packages/build/*.props
+
+# Publish result
+publish/
+
+# Logs
+*.log
+
+# Local History
+.localhistory/
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Database files
+*.mdf
+*.ldf
+*.ndf
+
+# Other files
+*.db
+*.pdb
+*.mdb
+*.scc
+*.pdb
+
+# Secrets
+secrets.json
+
+# Ignore the following folders/files if using Azure DevOps
+.vsts/
+.docker/
+
+# Azure
+*.deploy.cmd
+*.deploy.ps1
